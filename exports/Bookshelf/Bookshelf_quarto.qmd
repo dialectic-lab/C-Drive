@@ -1,0 +1,13 @@
+---
+title: "Bookshelf"
+author: "Author Name"
+date: today
+format: html
+---
+
+
+| Cover                                | Title                     | Author     | Date read        |
+| ------------------------------------ | :------------------------ | ---------- | ---------------- |
+| ![Pasted image 20250110134957.png](Pasted image 20250110134957.png) | The Many Lives of Syeda X | Neha Dixit | January 10, 2024 |
+| ![Pasted image 20250110142148.png](Pasted image 20250110142148.png) |                           |            |                  |
+|                                      |                           |            |                  |
