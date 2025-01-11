@@ -35,10 +35,10 @@ Summary of educational and professional journey:
 	    Architect         :2012-06-01, 2015-06-01
 ```
 
+### My Bookshelf (recent reads and recommendations)
+[[content/Pages/Bookshelf.md|![[Bookshelf illustration 2.png]]]]
 
-|                                   |               |
-| :-------------------------------- | ------------- |
-| ![[Bookshelf illustration 2.png]] | [[Bookshelf]] |
+
 > [!quote] Art Shop
 > ✨  [Whalesong](https://whalesong.printify.me/products) 
 I create art quite regularly, but update the store sporadically. You can sign up [here](https://whalesongstudio.substack.com/) to be updated about new products.
