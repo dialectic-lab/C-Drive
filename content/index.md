@@ -9,7 +9,7 @@ Welcome to my website.
 *Designer, researcher, writer, artist.*
 I'm a systems-thinker who spent the larger part of her career building in EdTech, FinTech, and currently researching and writing about financial inclusion as a design justice issue. My research process is artefact-led, driven by realities of technology impact on society. 
 ###  Current responsibilities:
-- A bunch of things at  [Dialectic](https://dialectic.in/). I research, analyse, visualise and write essays about public-interest topics. You can sign up to the [newsletter](https://dialecticstudio.substack.com/) for updates on the latest stories. *Please [write to me](mailyo:alias.bright712@passinbox.com) if you're available to collaborate on upcoming projects.*
+- [Dialectic](https://dialectic.in/): I research, analyse, visualise and write essays about public-interest topics. You can sign up to the [newsletter](https://dialecticstudio.substack.com/) for updates on the latest stories. *Please [write to me](mailyo:alias.bright712@passinbox.com) if you're available to collaborate on upcoming projects.*
 - Consulting for product teams on data-driven product design, research and communication. I write about some of them on this site. Check under [[Articles]]
 - Independent projects: a compilation of HCI research methods, and resource discovery platform for special education needs.
 
@@ -34,9 +34,12 @@ Summary of educational and professional journey:
     section Architecture
 	    Architect         :2012-06-01, 2015-06-01
 ```
+---
 
-### My Bookshelf (recent reads and recommendations)
-[[content/Pages/Bookshelf.md|![[Bookshelf illustration 2.png]]]]
+
+![[Bookshelf illustration 2.png]]
+### [[content/Pages/Bookshelf.md|My Bookshelf]] 
+Recent reads and recommendations
 
 
 > [!quote] Art Shop
