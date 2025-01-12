@@ -9,8 +9,10 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/dialectic-lab",
       Bluesky: "https://bsky.app/profile/chandni.xyz",
+      Twitter: "https://x.com/chandniverse",
+      LinkedIn: "https://www.linkedin.com/in/chaandni/",
+      Studio: "https://dialectic.in/"
     },
   }),
 }
@@ -37,15 +39,6 @@ export const defaultContentPageLayout: PageLayout = {
         linkToMore: "Posts/" as SimpleSlug,
       }),
     ),
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        title: "Recent Notes",
-        limit: 6,
-        filter: (f) =>
-          f.slug!.startsWith("Notes/") && f.slug! !== "Notes/index" && !f.frontmatter?.noindex,
-        linkToMore: "Notes/" as SimpleSlug,
-      }),
-    ),
     Component.DesktopOnly(Component.TableOfContents()),
   ],
   right: [
@@ -58,22 +51,7 @@ export const defaultContentPageLayout: PageLayout = {
       },
     }),
     Component.Backlinks(),
-  ],
-  afterBody: [
-  Component.Comments({
-    provider: 'giscus',
-    options: {
-      // from data-repo
-      repo: 'dialectic-lab/C-Drive',
-      // from data-repo-id
-      repoId: 'R_kgDONlTbYg',
-      // from data-category
-      category: 'General',
-      // from data-category-id
-      categoryId: 'DIC_kwDONlTbYs4CltF2',
-    }
-  }),
-],
+  ]
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
