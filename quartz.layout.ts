@@ -58,22 +58,7 @@ export const defaultContentPageLayout: PageLayout = {
       },
     }),
     Component.Backlinks(),
-  ],
-  afterBody: [
-  Component.Comments({
-    provider: 'giscus',
-    options: {
-      // from data-repo
-      repo: 'dialectic-lab/C-Drive',
-      // from data-repo-id
-      repoId: 'R_kgDONlTbYg',
-      // from data-category
-      category: 'General',
-      // from data-category-id
-      categoryId: 'DIC_kwDONlTbYs4CltF2',
-    }
-  }),
-],
+  ]
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
