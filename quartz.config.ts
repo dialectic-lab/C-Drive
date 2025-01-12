@@ -21,8 +21,8 @@ const config: QuartzConfig = {
     generateSocialImages: false,
     theme: {
       typography: {
-        header: "Tiempos",
-        body: "PT Serif",
+        header: "Libre Baskerville",
+        body: "Red Hat Display",
         code: "IBM Plex Mono",
       },
       colors: {
@@ -32,9 +32,9 @@ const config: QuartzConfig = {
           gray: "#A09D98",
           darkgray: "#5c534b",
           dark: "#242220",
-          secondary: "#635b8f",
-          tertiary: "#69a3d6",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          secondary: "#342876",
+          tertiary: "#587fc9",
+          highlight: "rgba(143, 159, 169, 0.05)",
         },
         darkMode: {
           light: "#161618",
@@ -42,9 +42,9 @@ const config: QuartzConfig = {
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          secondary: "#2caaf5",
+          tertiary: "#55ad98",
+          highlight: "rgba(143, 159, 169, 0.05)",
         },
       },
     },
