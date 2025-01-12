@@ -21,8 +21,8 @@ const config: QuartzConfig = {
     generateSocialImages: false,
     theme: {
       typography: {
-        header: "Tiempos",
-        body: "PT Serif",
+        header: "Libre Baskerville",
+        body: "Red Hat Display",
         code: "IBM Plex Mono",
       },
       colors: {
