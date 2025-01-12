@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     analytics: { 
       provider: 'google', tagId: 'G-V75BM2EXFJ' },
     locale: "en-US",
-    baseUrl: "chandni.xyz",
+    baseUrl: "blog.chandni.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
