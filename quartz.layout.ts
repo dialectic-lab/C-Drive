@@ -9,8 +9,10 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/dialectic-lab",
       Bluesky: "https://bsky.app/profile/chandni.xyz",
+      Twitter: "https://x.com/chandniverse",
+      LinkedIn: "https://www.linkedin.com/in/chaandni/",
+      Studio: "https://dialectic.in/"
     },
   }),
 }
@@ -35,15 +37,6 @@ export const defaultContentPageLayout: PageLayout = {
         filter: (f) =>
           f.slug!.startsWith("Posts/") && f.slug! !== "Posts/index" && !f.frontmatter?.noindex,
         linkToMore: "Posts/" as SimpleSlug,
-      }),
-    ),
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        title: "Recent Notes",
-        limit: 6,
-        filter: (f) =>
-          f.slug!.startsWith("Notes/") && f.slug! !== "Notes/index" && !f.frontmatter?.noindex,
-        linkToMore: "Notes/" as SimpleSlug,
       }),
     ),
     Component.DesktopOnly(Component.TableOfContents()),
