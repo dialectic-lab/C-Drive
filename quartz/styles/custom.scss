@@ -1,3 +1,249 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+body {
+  background-image: url("/static/bg.png") !important;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Tiempos";
+  src: url("/static/tiempos-light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* HEADER AT TOP OF WEBSITE */
+.marquee {
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  font-family: monospace;
+  white-space: nowrap;
+  height: 40px;
+}
+
+.marquee p {
+  color: white;
+  font-weight: 700;
+  animation: loopText 15s infinite linear;
+  line-height: unset;
+}
+
+@keyframes loopText {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-25%);
+  }
+}
+
+/* HEADER AT TOP OF WEBSITE */
+.content-container {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 128px;
+}
+
+.article-header {
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 25px;
+  border: 1px solid #5687d1;
+  background: #6096e6;
+
+  h1 {
+    color: #f9f5e9;
+    padding: 0px;
+    margin: 0;
+  }
+
+  p {
+    color: #f9f5e9;
+    padding: 0;
+    padding-top: 5px;
+    margin: 0;
+  }
+}
+
+body[data-slug="getting-started"] .article-header {
+  border: #949c61;
+  background: #9ca665;
+}
+
+body[data-slug="growing-people"] .article-header {
+  border: #ad7018;
+  background: #bd7c18;
+}
+
+body[data-slug="superboosting-ideas"] .article-header {
+  border: #9f7389;
+  background: #ac7d94;
+}
+
+body[data-slug="maintenance"] .article-header {
+  border: #d37662;
+  background: #eb846d;
+}
+
+body[data-slug="demo-days"] .article-header {
+  border: #e18fa715;
+  background: #e18fa7;
+}
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+body[data-slug="basics"] .navigation-container {
+  display: display;
+  justify-content: flex-end;
+}
+
+body[data-slug="demo-days"] .navigation-container {
+  display: display;
+  justify-content: flex-start;
+}
+
+a.navigation-button {
+  border-radius: 5px;
+  padding: 15px;
+  border: 1px solid #5687d1;
+  background: #6096e6;
+  width: 17%;
+  text-align: center;
+  transition: all 0.3s;
+  transform: scale(1);
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  p {
+    color: #f9f5e9;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+body[data-slug="getting-started"] a.navigation-button {
+  border: #949c61;
+  background: #9ca665;
+}
+
+body[data-slug="growing-people"] a.navigation-button {
+  border: #ad7018;
+  background: #bd7c18;
+}
+
+body[data-slug="superboosting-ideas"] a.navigation-button {
+  border: #9f7389;
+  background: #ac7d94;
+}
+
+body[data-slug="maintenance"] a.navigation-button {
+  border: #d37662;
+  background: #eb846d;
+}
+
+body[data-slug="demo-days"] a.navigation-button {
+  border: #ab5e75;
+  background: #e18fa7;
+}
+
+.end-message {
+  border-radius: 5px;
+  padding: 25px;
+  color: #f9f5e9;
+
+  h1 {
+    padding: 0;
+    margin: 0;
+    color: #f9f5e9;
+  }
+
+  p {
+    padding: 5px 0 0;
+    margin: 0;
+    color: #f9f5e9;
+  }
+
+  .cta-button {
+    background-color: #f9f5e9;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0 0;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: normal;
+  }
+
+  @media screen and (max-width: 600px) {
+    text-align: center;
+
+    .cta-button {
+      display: block;
+      margin: 20px auto 0;
+    }
+  }
+}
+
+body[data-slug="basics"] .end-message {
+  border: 1px solid #5687d1;
+  background: #6096e6;
+
+  .cta-button {
+    color: #6096e6;
+  }
+}
+
+body[data-slug="getting-started"] .end-message {
+  border: 1px solid #949c61;
+  background: #9ca665;
+
+  .cta-button {
+    color: #9ca665;
+  }
+}
+
+body[data-slug="growing-people"] .end-message {
+  border: 1px solid #ad7018;
+  background: #bd7c18;
+
+  .cta-button {
+    color: #bd7c18;
+  }
+}
+
+body[data-slug="superboosting-ideas"] .end-message {
+  border: 1px solid #9f7389;
+  background: #ac7d94;
+
+  .cta-button {
+    color: #ac7d94;
+  }
+}
+
+body[data-slug="maintenance"] .end-message {
+  border: 1px solid #d37662;
+  background: #eb846d;
+
+  .cta-button {
+    color: #eb846d;
+  }
+}
+
+body[data-slug="demo-days"] .end-message {
+  border: 1px solid #ab5e75;
+  background: #e18fa7;
+
+  .cta-button {
+    color: #e18fa7;
+  }
+}
