@@ -20,3 +20,6 @@ Welcome to the digital garden section of my website.
 >>>[!todo] [[Articles]]
 >
 >>>[!todo] [[Daily Notes]]
+
+Test: [[Canvas.canvas|Canvas]]
+
