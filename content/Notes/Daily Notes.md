@@ -1,3 +1,6 @@
+---
+sticker: emoji//1f4ac
+---
 These are notes, not essays. Not one of them is complete or presentable. Wade at your own risk. 
 
 [[2025-01-02]]
