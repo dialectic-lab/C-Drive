@@ -1,17 +1,21 @@
 {
 	"nodes":[
-		{"id":"d2d18ae563715c00","x":-125,"y":-144,"width":250,"height":60,"type":"text","text":"**This is a test canvas**"},
-		{"id":"b223ec97029a9866","x":-180,"y":40,"width":250,"height":120,"type":"text","text":"This is an example of what a canvas looks like on the web:"},
-		{"id":"2c69c666d5b2bb7d","x":125,"y":40,"width":400,"height":400,"type":"link","url":"https://jsoncanvas.org/"},
-		{"id":"0ef1e68e05d764a2","x":560,"y":40,"width":248,"height":400,"type":"file","file":"content/Images/Em and the big hoom cover.png"},
-		{"id":"476c34d1051a4197","x":720,"y":320,"width":250,"height":60,"type":"text","text":"Example image"},
-		{"id":"65262d0a9009c9c4","x":-305,"y":260,"width":250,"height":60,"color":"4","type":"text","text":"Cards can have different colored outlines"},
-		{"id":"9b41751a9e258433","x":-40,"y":500,"width":400,"height":400,"color":"3","type":"file","file":"content/index.md"},
-		{"id":"1a132ef268a8a0c9","x":-400,"y":413,"width":250,"height":174,"color":"6","type":"text","text":"I can add pages of my vault, they show up as previews"},
-		{"id":"d22c81944897d7fc","x":500,"y":588,"width":250,"height":112,"type":"text","text":"ok, publishing this to test on different devices now"}
+		{"id":"d2d18ae563715c00","type":"text","text":"**This is a test canvas**","x":-125,"y":-144,"width":250,"height":60},
+		{"id":"b223ec97029a9866","type":"text","text":"This is an example of what a canvas looks like on the web:","x":-180,"y":40,"width":250,"height":120},
+		{"id":"2c69c666d5b2bb7d","type":"link","url":"https://jsoncanvas.org/","x":125,"y":40,"width":400,"height":400},
+		{"id":"0ef1e68e05d764a2","type":"file","file":"content/Images/Em and the big hoom cover.png","x":560,"y":40,"width":248,"height":400},
+		{"id":"476c34d1051a4197","type":"text","text":"Example image","x":720,"y":320,"width":250,"height":60},
+		{"id":"65262d0a9009c9c4","type":"text","text":"Cards can have different colored outlines","x":-305,"y":260,"width":250,"height":60,"color":"4"},
+		{"id":"9b41751a9e258433","type":"file","file":"content/index.md","x":-40,"y":500,"width":400,"height":400,"color":"3"},
+		{"id":"1a132ef268a8a0c9","type":"text","text":"I can add pages of my vault, they show up as previews","x":-400,"y":413,"width":250,"height":174,"color":"6"},
+		{"id":"d22c81944897d7fc","type":"text","text":"ok, publishing this to test on different devices now","x":500,"y":588,"width":250,"height":112},
+		{"id":"f2454f39d53dc5b5","x":818,"y":604,"width":250,"height":60,"type":"text","text":"did not work"},
+		{"id":"8c12c55a82fd5009","x":818,"y":712,"width":250,"height":328,"type":"text","text":"- They can't be published using [Obsidian Publish](https://notes.nicolevanderhoeven.com/Obsidian+Publish).\n- You can't embed a canvas.\n- Canvas doesn't work on mobile.\n  [Source](https://notes.nicolevanderhoeven.com/obsidian-playbook/Obsidian+Plugins/Core+Plugins/Canvas)"}
 	],
 	"edges":[
 		{"id":"0ce17038c2372ec7","fromNode":"b223ec97029a9866","fromSide":"bottom","toNode":"2c69c666d5b2bb7d","toSide":"left"},
-		{"id":"f099e5ab18117386","fromNode":"1a132ef268a8a0c9","fromSide":"right","toNode":"9b41751a9e258433","toSide":"left"}
+		{"id":"f099e5ab18117386","fromNode":"1a132ef268a8a0c9","fromSide":"right","toNode":"9b41751a9e258433","toSide":"left"},
+		{"id":"fbf7173018bd117a","fromNode":"d22c81944897d7fc","fromSide":"right","toNode":"f2454f39d53dc5b5","toSide":"left"},
+		{"id":"a3fd350af7b7f141","fromNode":"f2454f39d53dc5b5","fromSide":"bottom","toNode":"8c12c55a82fd5009","toSide":"top"}
 	]
 }

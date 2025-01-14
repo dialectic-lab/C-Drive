@@ -21,5 +21,7 @@ Welcome to the digital garden section of my website.
 >
 >>>[!todo] [[Daily Notes]]
 
-Test: [[Canvas.canvas|Canvas]]
+Test: [[Canvas.canvas|Canvas]][[Canvas embed test]]
+
+
 
