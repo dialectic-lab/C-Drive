@@ -5,3 +5,4 @@ These are notes, not essays. Not one of them is complete or presentable. Wade at
 [[2025-01-06]]
 [[2025-01-07]]
 [[2025-01-08]]
+[[2025-01-13]]
