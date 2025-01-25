@@ -2,8 +2,7 @@
 title: Blog
 sticker: emoji//1f315
 ---
-Hi, I'm **Chandni Naidu Deadwyler**. 
-Welcome to the digital garden section of my website.
+Hi, I'm **Chandni**. Welcome to the digital garden section of my website.
 [About Me](https://chandni.xyz/about)
 
 > [!tip] Update
@@ -20,8 +19,4 @@ Welcome to the digital garden section of my website.
 >>>[!todo] [[Articles]]
 >
 >>>[!todo] [[Daily Notes]]
-
-Test: [[Canvas.canvas|Canvas]][[Canvas embed test]]
-
-
 
