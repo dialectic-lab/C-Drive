@@ -58,7 +58,3 @@ https://docs.google.com/document/d/1NARHEPh31uDLwgY4hOJFbrxo_PdZISZkBaPLL3HEmvE/
 - Write for a general audience, humanise it
 - Supplement existing coverage with a different perspective
 - At the root of it, it should be a surprising idea or a surprising person writing it
-
-## Getting paid
-- 
-
