@@ -1,0 +1,22 @@
+Notes from the podcast: [The Three horizons of AI Policy ](https://youtu.be/MIClSKg0g8M?si=bLB3CgB2CE66tels)
+
+- three eras of modern technology, most policy focuses on one of them 
+- modern deep learning revolution: using neural networks + GPU computing technology = beginning of AI (12 years back)
+- First era: 2012-22 a decade of deep learning era
+- Second era: broke into the public scene from 2022 - generative revolution
+- Final horizon: frontier AI models might become 10x - 1000x better than what we have today
+- Regulatory challenges will be much harder 
+- EU AI Act originally wanted to regulate deep learning, then they caught up to generative AI. 
+- [UK AI Safety Institute](https://www.aisi.gov.uk/) - focused on frontier AI models
+	- Red teaming, collaboration, technical testing evaluation systems
+	- [Academic engagement opportunity](https://www.aisi.gov.uk/academic-engagement)
+- Education opportunity:  [Stanford HAI](https://hai.stanford.edu/)  (HAI is Human-centred AI)
+- Huge shortage in AI policy expertise
+- Regulation at national, international and state levels:
+	- March 21, Gov. Bill Lee of Tennessee banned the use of AI to copy an artist's voice. This may still be legal in other places. Recording industry in Nashville.
+	- OMB guidelines on 
+	- Dutch government using AI to detect tax fraud. No technical due diligence. Errors were expensive!  
+	- G7 expected to focus on AI policy
+- Hot issue - semiconductor supply chain vulnerability - industry sources in friendlier nations
+	- HK, South Korea and Taiwan - American support to bring the industry there to help resist communism
+- Computational supply chain - build in Mexico for closer, land-transported source
